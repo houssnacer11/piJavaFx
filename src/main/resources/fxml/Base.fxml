@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="generalAnchorPane" maxHeight="600.0" maxWidth="800.0" minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.overpowered.pijavafx.controllers.BaseController">
+    <children>
+        <AnchorPane id="rightMenuAnchorPane" fx:id="rightMenuAnchorPane" layoutY="29.0" prefHeight="570.0" prefWidth="50.0" style="-fx-background-color: gray;">
+            <children>
+                <VBox layoutY="14.0" prefHeight="288.0" prefWidth="49.0">
+                    <children>
+
+                        <JFXButton fx:id="notificationsButton" prefHeight="44.0" prefWidth="50.0" stylesheets="@../styles/button-styles.css" text="🔔">
+                            <font>
+                                <Font size="17.0" />
+                            </font>
+                        </JFXButton>
+                        <JFXButton fx:id="profileButton" onMouseClicked="#profileButtonClicked" prefHeight="44.0" prefWidth="50" stylesheets="@../styles/button-styles.css" text="🙍">
+                            <font>
+                                <Font size="17.0" />
+                            </font>
+                        </JFXButton>
+                        <JFXButton fx:id="messagesButton" onAction="#goToInbox" prefHeight="44.0" prefWidth="50" stylesheets="@../styles/button-styles.css" text="✉">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </JFXButton>
+
+                        <JFXButton fx:id="createQuizBtn" mnemonicParsing="false" onAction="#onCreateQuizBtnClicked" prefHeight="25.0" prefWidth="50" text="?">
+                            <font>
+                                <Font size="17.0" />
+                            </font>
+                        </JFXButton>
+                        <JFXButton fx:id="manageCandidacyBtn" onAction="#onManageCandidacyBtnClicked" prefHeight="44.0" prefWidth="50.0" text="📰">
+                            <font>
+                                <Font size="17.0" />
+                            </font>
+                        </JFXButton>
+                        <JFXButton fx:id="applyToJob" onAction="#onApplyToJobBtnClicked" text="APPLY" />
+                        <JFXButton fx:id="myJobApplications" onAction="#onMyJobApplications" text="MYAPP" />
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="centralAnchorPane" layoutX="88.0" layoutY="29.0" prefHeight="570.0" prefWidth="725.0" />
+        <AnchorPane id="topMenuAnchorPane" fx:id="topMenuAnchorPane" prefHeight="25.0" prefWidth="800.0">
+            <children>
+                <MenuBar id="topMenu" fx:id="topMenu" prefHeight="30.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <menus>
+                        <Menu mnemonicParsing="false" text="File">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="Close" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Edit">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="Delete" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Help">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="About" />
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="130.0" prefWidth="170.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.overpowered.pijavafx.controllers.messaging.MessageInfoViewController">
+   <children>
+      <Text fx:id="messageSource" layoutX="14.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="By:" />
+      <Hyperlink fx:id="userName" layoutX="48.0" layoutY="10.0" text="Username" />
+      <Circle fx:id="seenStatus" fill="#ff1f75" layoutX="147.0" layoutY="23.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text fx:id="messageExrept" layoutX="48.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exrept" />
+      <Hyperlink fx:id="deleteLink" layoutX="106.0" layoutY="103.0" text="Delete" />
+   </children>
+</AnchorPane>

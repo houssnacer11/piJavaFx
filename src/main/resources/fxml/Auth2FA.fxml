@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="parentAnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.overpowered.pijavafx.controllers.authentication.Auth2FAController">
+   <children>
+      <ImageView fitHeight="653.0" fitWidth="904.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/images/loginbackgound.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="133.0" layoutY="102.0" opacity="0.67" prefHeight="385.0" prefWidth="610.0" style="-fx-background-color: #212F3C; -fx-background-radius: 30;" />
+      <JFXTextField fx:id="auth2FAToken" focusColor="#0e65bc" layoutX="354.0" layoutY="223.0" prefHeight="3.0" prefWidth="169.0" unFocusColor="#fcfcfc" />
+      <Label layoutX="156.0" layoutY="155.0" text="You have received a token on your email, please enter it here" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="391.0" layoutY="312.0" onAction="#finalizeLogin" text="Finish login" textFill="WHITE" />
+   </children>
+</AnchorPane>

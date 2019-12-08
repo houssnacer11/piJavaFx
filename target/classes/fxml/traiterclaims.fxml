@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.overpowered.pijavafx.controllers.TraiterclaimsController">
+   <children>
+      <Button fx:id="changeetat" layoutX="33.0" layoutY="59.0" mnemonicParsing="false" onAction="#changeretat" prefHeight="26.0" prefWidth="102.0" text="Change Status" />
+      <TextField fx:id="etatchange" layoutX="68.0" layoutY="200.0" prefHeight="78.0" prefWidth="464.0" />
+      <JFXComboBox layoutX="169.0" layoutY="59.0" prefHeight="35.0" prefWidth="194.0" />
+      <Text layoutX="26.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Send Messege: " wrappingWidth="153.33670043945312">
+         <font>
+            <Font name="AR JULIAN" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

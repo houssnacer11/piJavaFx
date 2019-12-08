@@ -1,0 +1,13 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 25, 2019, 1:20:16 PM
+    Author     : aminos
+*/
+.jfx-button{
+     -fx-border-radius: 0pt;
+     -fx-background-radius: 0pt;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.overpowered.pijavafx.controllers.ReponseClaimController">
+   <children>
+      <TableView fx:id="table" blendMode="EXCLUSION" layoutY="114.0" prefHeight="570.0" prefWidth="750.0">
+         <columns>
+            <TableColumn fx:id="name" prefWidth="86.0" text="Name" />
+            <TableColumn fx:id="description" prefWidth="126.0" text="Description" />
+            <TableColumn fx:id="type" prefWidth="129.0" text="Type" />
+            <TableColumn fx:id="etat" prefWidth="97.0" text="Status" />
+            <TableColumn fx:id="date" prefWidth="107.0" text="Date" />
+            <TableColumn fx:id="fichier" prefWidth="161.0" text="File" />
+         </columns>
+      </TableView>
+      <CheckBox fx:id="claimfinancier" layoutX="277.0" layoutY="39.0" mnemonicParsing="false" onAction="#handleReclamationProduit" text="Claim financier" />
+      <CheckBox fx:id="claimservice" layoutX="277.0" layoutY="64.0" mnemonicParsing="false" onAction="#handleReclamationProduit" text="réclamation Service" />
+      <CheckBox fx:id="claims" layoutX="438.0" layoutY="64.0" mnemonicParsing="false" onAction="#handleReclamationProduit" text="other Claims" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" fx:id="generalAnchorPane" prefHeight="543.0" prefWidth="889.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.overpowered.pijavafx.controllers.CompanyViewOfferDetailsController">
+    <children>
+        <AnchorPane id="rightMenuAnchorPane" fx:id="rightMenuAnchorPane" layoutY="20.0" prefHeight="524.0" prefWidth="90.0" style="-fx-background-color: gray;">
+            <children>
+            <VBox layoutY="7.0" prefHeight="288.0" prefWidth="90.0">
+               <children>
+                  <Button fx:id="homeButtton" contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#homeButttonOnClicked" prefHeight="52.0" prefWidth="97.0" text="Home">
+                     </Button>
+                  <Button fx:id="profileButton" contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#profileButtonOnClicked" prefHeight="52.0" prefWidth="97.0" text="Profile">
+                     </Button>
+                  <Button fx:id="jobOffers" contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#jobOffersOnClicked" prefHeight="52.0" prefWidth="103.0" text="Jobs">
+                     </Button>
+                  <Button fx:id="newOfferButton" contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#newOfferButtonOnClicked" prefHeight="52.0" prefWidth="96.0" text="New Offer">
+                     </Button>
+                  <Button fx:id="contactButton" mnemonicParsing="false" onMouseClicked="#contactButtonClicked" prefHeight="53.0" prefWidth="101.0" text="Contacts" />
+               </children>
+            </VBox>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="centralAnchorPane" layoutX="90.0" layoutY="25.0" prefHeight="517.0" prefWidth="801.0">
+         <children>
+            <GridPane hgap="5.0" layoutY="3.0" prefHeight="307.0" prefWidth="391.0" vgap="5.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="226.0" minWidth="10.0" prefWidth="158.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="164.0" minWidth="10.0" prefWidth="164.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Archive On" textFill="RED" GridPane.rowIndex="4" />
+                  <Label fx:id="expertiseLevel" alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="165.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Label prefHeight="57.0" prefWidth="128.0" text="Title" textFill="#d00000" />
+                  <Label fx:id="title" alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="22.0" prefWidth="166.0" text="Label" GridPane.columnIndex="1" />
+                  <Label text="Created On" textFill="#ee0000" GridPane.rowIndex="1" />
+                  <Label fx:id="createdOn" alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="23.0" prefWidth="164.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label text="Company Name" textFill="RED" GridPane.rowIndex="3" />
+                  <Label fx:id="compName" alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="24.0" prefWidth="162.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Label prefHeight="43.0" prefWidth="115.0" text="Location" textFill="RED" GridPane.rowIndex="2" />
+                  <Label fx:id="location" alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="23.0" prefWidth="163.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Label prefHeight="38.0" prefWidth="145.0" text="Expertise Level" textFill="RED" GridPane.rowIndex="5" />
+                  <Label fx:id="archiveOn" alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="165.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Label text="Number Of People Needed" GridPane.rowIndex="6" />
+                  <Label fx:id="peopleNeeded" alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="166.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+               </children>
+               <padding>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </padding>
+            </GridPane>
+            <VBox layoutX="499.0" layoutY="14.0" prefHeight="200.0" prefWidth="90.0" spacing="10.0">
+               <children>
+                  <Button fx:id="approveOfferButton" mnemonicParsing="false" onMouseClicked="#approveOfferButtonOnClicked" prefHeight="25.0" prefWidth="95.0" text="Approve" />
+                  <Button fx:id="declineOfferButton" mnemonicParsing="false" onMouseClicked="#declineOfferButtonOnClicked" prefHeight="25.0" prefWidth="97.0" text="Decline" />
+               </children>
+            </VBox>
+            <Label fx:id="about" layoutX="544.0" layoutY="35.0" />
+            <Label fx:id="jobDescription" layoutX="4.0" layoutY="371.0" prefHeight="139.0" prefWidth="309.0" wrapText="true">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Label>
+            <Label layoutX="14.0" layoutY="347.0" prefHeight="17.0" prefWidth="83.0" text="Job Description" />
+         </children></AnchorPane>
+        <AnchorPane id="topMenuAnchorPane" fx:id="topMenuAnchorPane" prefHeight="25.0" prefWidth="647.0">
+            <children>
+                <MenuBar id="topMenu" fx:id="topMenu" prefHeight="32.0" prefWidth="889.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-242.0" AnchorPane.topAnchor="0.0">
+                    <menus>
+                        <Menu mnemonicParsing="false" text="File">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="Close" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Edit">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="Delete" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Help">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="About" />
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+            </children>
+        </AnchorPane>
+      <Label fx:id="idLabel" layoutX="108.0" layoutY="497.0" opacity="0.0" />
+    </children>
+</AnchorPane>

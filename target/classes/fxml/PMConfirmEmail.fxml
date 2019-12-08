@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="parentAnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.overpowered.pijavafx.controllers.PMConfirmEmailController">
+   <children>
+      <JFXTextField fx:id="confirmCode" alignment="CENTER" layoutX="190.0" layoutY="137.0" prefHeight="32.0" prefWidth="182.0" promptText="Insert Code HERE" />
+      <JFXButton fx:id="confirmButton" layoutX="221.0" layoutY="248.0" onMouseClicked="#confirmButton" prefHeight="39.0" prefWidth="120.0" text="Confirm" />
+      <Hyperlink fx:id="goBackLink" alignment="CENTER" layoutY="365.0" onMouseClicked="#goBackLink" prefHeight="29.0" prefWidth="99.0" text="GO BACK" textFill="#dd0f0f" />
+      <Hyperlink fx:id="resendCodeLink" alignment="CENTER" layoutX="213.0" layoutY="178.0" onMouseClicked="#resendCodeLink" prefHeight="29.0" prefWidth="137.0" text="Resend Code!" />
+      <Label fx:id="garbage" layoutX="14.0" layoutY="14.0" prefHeight="21.0" prefWidth="67.0" visible="false" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="centerAnchor" minHeight="570.0" minWidth="750.0" prefHeight="570.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.overpowered.pijavafx.controllers.ManageQuizController">
+   <children>
+      <Label fx:id="titleLabel" layoutX="208.0" layoutY="14.0" text="Manage quiz for job offer:" textFill="#1f2197">
+         <font>
+            <Font name="BebasNeueRegular" size="37.0" />
+         </font>
+      </Label>
+      <GridPane fx:id="quizGridPane" layoutX="114.0" layoutY="66.0" prefHeight="325.0" prefWidth="529.0" visible="false">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="224.0" minWidth="10.0" prefWidth="142.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="368.0" minWidth="10.0" prefWidth="307.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="104.0" minHeight="10.0" prefHeight="88.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="131.0" minHeight="10.0" prefHeight="129.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Quiz Name: " />
+            <Label text="Minimum score to pass:" GridPane.rowIndex="1" />
+            <Label text="Quiz details:" GridPane.rowIndex="2" />
+            <TextArea fx:id="quizDetailsTextField" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="quizNameTextField" GridPane.columnIndex="1" />
+            <TextField fx:id="minScoreTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <JFXButton fx:id="nextBtn" layoutX="312.0" layoutY="452.0" onAction="#onNextBtn" prefHeight="39.0" prefWidth="132.0" style="-fx-background-color: green;" text="Next" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="createQuizBtn" layoutX="308.0" layoutY="500.0" onAction="#onCreateQuizBtnClicked" prefHeight="46.0" prefWidth="141.0" style="-fx-background-color: green;" text="Create Quiz" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+      <HBox fx:id="noQuizExistsHBox" layoutX="196.0" layoutY="185.0" prefHeight="100.0" prefWidth="360.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="100.0" prefWidth="362.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="31.0" prefWidth="359.0" text="This job offer doesn't have a quiz yet.">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text=" Click on Create Quiz to create one.">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <JFXButton fx:id="goBackBtn" layoutX="331.0" layoutY="400.0" onAction="#onGoBackBtnClicked" style="-fx-background-color: red;" text="Go back" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
