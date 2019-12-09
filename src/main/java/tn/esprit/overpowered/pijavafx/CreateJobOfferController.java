@@ -40,7 +40,6 @@ import utilJoboffer.SkillView;
 /**
  * FXML Controller class
  *
- * @author pc
  */
 public class CreateJobOfferController implements Initializable {
 

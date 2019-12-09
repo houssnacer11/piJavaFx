@@ -16,7 +16,7 @@ import util.cache.ContextCache;
 
 /**
  *
- * @author aminos
+
  */
 public class Authenticator {
 

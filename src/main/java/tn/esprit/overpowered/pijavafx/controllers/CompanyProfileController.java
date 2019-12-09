@@ -33,7 +33,6 @@ import util.routers.FXRouter;
 /**
  * FXML Controller class
  *
- * @author EliteBook
  */
 public class CompanyProfileController implements Initializable {
 

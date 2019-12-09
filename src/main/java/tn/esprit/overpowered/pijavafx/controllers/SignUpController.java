@@ -30,7 +30,7 @@ import util.routers.FXRouter;
 /**
  * FXML Controller class
  *
- * @author EliteBook
+
  */
 public class SignUpController implements Initializable {
 

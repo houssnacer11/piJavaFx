@@ -17,7 +17,6 @@ import util.cache.ContextCache;
 
 /**
  *
- * @author aminos
  */
 public class MessageSender {
     public static void send() throws NamingException {

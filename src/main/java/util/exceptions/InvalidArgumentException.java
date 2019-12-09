@@ -7,7 +7,6 @@ package util.exceptions;
 
 /**
  *
- * @author aminos
  */
 public class InvalidArgumentException extends Exception {
     public InvalidArgumentException(String err) {

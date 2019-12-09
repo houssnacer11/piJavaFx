@@ -16,7 +16,6 @@ import tn.esprit.overpowered.byusforus.services.messaging.MessagingRemote;
 
 /**
  *
- * @author aminos
  */
 public class MessageCheckThread implements Runnable {
 

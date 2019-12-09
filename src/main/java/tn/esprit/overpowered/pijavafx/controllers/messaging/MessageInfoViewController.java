@@ -17,7 +17,7 @@ import util.dataAbstraction.messaging.Conversation;
 /**
  * FXML Controller class
  *
- * @author aminos
+
  */
 public class MessageInfoViewController implements Initializable {
 

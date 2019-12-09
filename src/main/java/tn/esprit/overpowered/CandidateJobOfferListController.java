@@ -50,7 +50,6 @@ import util.routers.FXRouter;
 /**
  * FXML Controller class
  *
- * @author EliteBook
  */
 public class CandidateJobOfferListController implements Initializable {
 

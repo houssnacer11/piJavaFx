@@ -15,7 +15,6 @@ import tn.esprit.overpowered.byusforus.entities.users.User;
 
 /**
  *
- * @author aminos
  */
 public class Conversation {
 

@@ -43,7 +43,7 @@ import util.routers.FXRouter;
 /**
  * FXML Controller class
  *
- * @author aminos
+
  */
 public class InboxController implements Initializable {
 

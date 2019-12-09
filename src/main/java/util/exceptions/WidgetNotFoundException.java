@@ -7,7 +7,6 @@ package util.exceptions;
 
 /**
  *
- * @author aminos
  */
 public class WidgetNotFoundException extends Exception {
     public WidgetNotFoundException() {

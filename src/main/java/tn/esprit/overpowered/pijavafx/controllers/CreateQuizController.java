@@ -32,7 +32,6 @@ import util.routers.FXRouter;
 /**
  * FXML Controller class
  *
- * @author Yassine
  */
 public class CreateQuizController implements Initializable {
 

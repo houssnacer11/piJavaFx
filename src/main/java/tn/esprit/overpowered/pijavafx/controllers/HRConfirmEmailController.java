@@ -24,7 +24,6 @@ import util.routers.FXRouter;
 /**
  * FXML Controller class
  *
- * @author EliteBook
  */
 public class HRConfirmEmailController implements Initializable {
 

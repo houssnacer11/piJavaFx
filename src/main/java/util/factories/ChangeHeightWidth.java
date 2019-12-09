@@ -12,7 +12,6 @@ import util.exceptions.WidgetNotFoundException;
 
 /**
  *
- * @author aminos
  */
 public class ChangeHeightWidth implements ChangeDimensions {
 

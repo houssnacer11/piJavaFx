@@ -32,7 +32,6 @@ import util.routers.FXRouter;
 /**
  * FXML Controller class
  *
- * @author aminos
  */
 public class LoginController implements Initializable {
 

@@ -17,7 +17,6 @@ import tn.esprit.overpowered.byusforus.services.users.ProjectManagerFacadeRemote
 
 /**
  *
- * @author pc
  */
 public class InfoTracker {
 

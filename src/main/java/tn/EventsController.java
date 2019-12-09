@@ -44,7 +44,6 @@ import util.routers.FXRouter;
 /**
  * FXML Controller class
  *
- * @author pc
  */
 public class EventsController implements Initializable {
 

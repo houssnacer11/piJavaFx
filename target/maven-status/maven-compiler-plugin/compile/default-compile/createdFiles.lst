@@ -16,17 +16,14 @@ util\factories\ChangeDimensionsFactory.class
 tn\esprit\overpowered\pijavafx\controllers\JobOfferCandidateDetailsController.class
 util\factories\ChangeHeightWidth.class
 tn\esprit\overpowered\pijavafx\controllers\TryQuizController$4.class
-util\proxies\claim\Claim.class
 tn\esprit\overpowered\pijavafx\controllers\JobApplicationController.class
 tn\esprit\overpowered\pijavafx\controllers\CompanyPMProfileController.class
-tn\esprit\overpowered\pijavafx\controllers\Paiement\PaiementController.class
 tn\esprit\overpowered\pijavafx\controllers\authentication\Auth2FAController.class
 tn\esprit\overpowered\pijavafx\controllers\CandidateListController.class
 tn\esprit\overpowered\pijavafx\controllers\OffersController$2.class
 util\routers\FXRouter.class
 tn\esprit\overpowered\pijavafx\controllers\EventDetailsController.class
 util\routers\FXRouter$RouteScene.class
-tn\esprit\overpowered\pijavafx\controllers\CreateClaimController.class
 tn\esprit\overpowered\pijavafx\controllers\EditQuestionsController.class
 tn\esprit\overpowered\pijavafx\controllers\CandidateHomeController.class
 tn\esprit\overpowered\pijavafx\controllers\CreateQuestionsController.class
@@ -48,7 +45,6 @@ tn\esprit\overpowered\pijavafx\controllers\EditEventController.class
 tn\esprit\overpowered\pijavafx\controllers\messaging\MessageInfoViewController.class
 tn\esprit\overpowered\pijavafx\controllers\OffersController$1.class
 util\messsages\MessageSender.class
-util\proxies\claim\cheque.class
 util\messsages\MessageDelegate.class
 tn\esprit\overpowered\pijavafx\controllers\CandidateJobOfferListController$1.class
 tn\esprit\overpowered\pijavafx\controllers\CandidateJobOfferListController.class
@@ -62,7 +58,6 @@ util\factories\ChangeDimensions.class
 tn\esprit\overpowered\pijavafx\controllers\TryQuizController.class
 tn\esprit\overpowered\pijavafx\controllers\HREntrepriseVerifController.class
 tn\esprit\overpowered\pijavafx\controllers\OffersController$2$1.class
-tn\esprit\overpowered\pijavafx\controllers\ReponseClaimController.class
 tn\esprit\overpowered\pijavafx\controllers\CompanyListController.class
 tn\esprit\overpowered\pijavafx\controllers\PMEntrepriseVerifController.class
 util\routers\FXRouter$1.class
@@ -79,7 +74,6 @@ tn\esprit\overpowered\pijavafx\controllers\ListJobOfferCandidatesController.clas
 tn\esprit\overpowered\pijavafx\controllers\QuizResultsController.class
 util\factories\ChangeWidth.class
 tn\esprit\overpowered\pijavafx\controllers\MotifDeclineOfferController.class
-tn\esprit\overpowered\pijavafx\controllers\Paiement\ChequeController.class
 tn\esprit\overpowered\pijavafx\controllers\AddQuestionToQuizController.class
 util\authentication\UserCreator.class
 util\messsages\MessageCheckThread.class

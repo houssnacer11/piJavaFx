@@ -13,7 +13,6 @@ import tn.esprit.overpowered.byusforus.services.candidat.CandidateFacadeRemote;
 
 /**
  *
- * @author EliteBook
  */
 public class CandidateServices {
     

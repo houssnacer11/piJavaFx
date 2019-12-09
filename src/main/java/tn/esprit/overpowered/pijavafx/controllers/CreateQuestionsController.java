@@ -52,7 +52,6 @@ import util.routers.FXRouter;
 /**
  * FXML Controller class
  *
- * @author Yassine
  */
 public class CreateQuestionsController implements Initializable {
 

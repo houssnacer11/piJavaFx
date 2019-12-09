@@ -46,7 +46,7 @@ import util.routers.FXRouter;
 /**
  * FXML Controller class
  *
- * @author Yassine
+
  */
 public class ListJobOfferCandidatesController implements Initializable {
 

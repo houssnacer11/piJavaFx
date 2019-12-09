@@ -13,7 +13,6 @@ import javafx.scene.layout.BorderPane;
 /**
  * FXML Controller class
  *
- * @author Yassine
  */
 public class EntrepriseHomeController implements Initializable {
 

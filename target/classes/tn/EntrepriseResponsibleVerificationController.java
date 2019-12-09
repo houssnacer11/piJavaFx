@@ -12,7 +12,6 @@ import javafx.fxml.Initializable;
 /**
  * FXML Controller class
  *
- * @author EliteBook
  */
 public class EntrepriseResponsibleVerificationController implements Initializable {
 

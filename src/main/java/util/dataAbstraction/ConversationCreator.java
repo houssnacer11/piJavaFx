@@ -10,7 +10,7 @@ import tn.esprit.overpowered.byusforus.entities.messaging.Message;
 
 /**
  *
- * @author aminos
+
  */
 public class ConversationCreator {
 

@@ -12,7 +12,6 @@ import javafx.scene.control.ButtonType;
 
 /**
  *
- * @author Yassine
  */
 public class CreateAlert {
 

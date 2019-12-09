@@ -28,7 +28,6 @@ import util.routers.FXRouter;
 
 /**
  *
- * @author EliteBook
  */
 public class SignUp {
 

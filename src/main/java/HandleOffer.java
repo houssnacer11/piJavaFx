@@ -30,7 +30,6 @@ import util.authentication.Authenticator;
 
 /**
  *
- * @author pc
  */
 public class HandleOffer {
 

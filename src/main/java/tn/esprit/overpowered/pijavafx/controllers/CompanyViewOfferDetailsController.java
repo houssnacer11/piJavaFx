@@ -31,7 +31,6 @@ import utilJoboffer.HandleOffer;
 /**
  * FXML Controller class
  *
- * @author pc
  */
 public class CompanyViewOfferDetailsController implements Initializable {
 

@@ -45,7 +45,6 @@ import util.routers.FXRouter;
 /**
  * FXML Controller class
  *
- * @author EliteBook
  */
 public class CandidateListController implements Initializable {
 

@@ -112,7 +112,7 @@ public class MainApp extends Application {
     public void start(Stage stage) throws Exception {
 
         //Testing candidate registration 
-        String loginFxmlFile = "/fxml/Login.fxml";
+        String loginFxmlFile = "/fxml/Base.fxml";
         FXMLLoader loader = new FXMLLoader();
         final Parent rootNode = (Parent) loader.load(getClass().getResourceAsStream(loginFxmlFile));
         Scene scene = new Scene(rootNode);
